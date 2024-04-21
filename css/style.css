@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 
 @font-face {
     font-family: friends;
     src: url(/p1/fonts/friends.TTF);
 }
 
-.jersey-10-regular {
-    font-family: "Jersey 10", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+
+.cor-bg {
+    background-color:#fc9e1b;
   }
   
 
@@ -19,6 +20,10 @@ header {
     top: 0;
     width: 100%;
     display: flex;
+}
+
+ul {
+    margin-left: 330px;
 }
 
 header ul li {
@@ -33,7 +38,7 @@ header ul li a:hover{
 }
 
 .logotipo {
-    margin-left: 10px;
+    margin-left: 30px;
 }
 
 p {
@@ -45,10 +50,6 @@ p {
     padding: 5px;
 }
 
-h1 {
-    margin-bottom: 8px;
-    margin-top: 0;
-}
 
 .cor {
     background-color: yellow;
@@ -59,9 +60,6 @@ h1 {
     color: red;
 }
 
-h2 {
-    margin-top: 10px;
-}
 
 .grid-container {
     display: grid;
@@ -118,7 +116,7 @@ h2 {
 
 .p-historia {
     padding: 15px;
-    font-family: "Jersey 10", sans-serif;
+    font-family: "oswald", sans-serif;
 }
 
 .grid-container-3 {
@@ -136,12 +134,14 @@ h2 {
 }
 
 footer {
-    background-color: rgb(6, 45, 6);
+    background-color: rgb(7, 53, 7);
     height: 30px;
 }
 
 footer p {
     color: white;
     text-align: center;
-    padding: 5px;
+    padding: 3px;
+    font-family: oswald;
+    font-size: 11pt;
 }
